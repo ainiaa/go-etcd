@@ -53,7 +53,7 @@ func Register(dir string, value string) {
 	}
 }
 
-func main()  {
+func main2()  {
 	go Register("/agent", "192.168.1.2:80")
 
 	for {
